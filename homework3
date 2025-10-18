@@ -4,12 +4,12 @@ import sys
 from pathlib import Path
 from colorama import init, Fore, Style
 
-# Ініціалізуємо colorama для кросплатформної підтримки кольорів
+# Ініціалізацiя colorama 
 init()
 
 def print_tree(path: Path, prefix: str = ""):
     """
-    Рекурсивно виводить структуру директорії з кольоровим форматуванням:
+    Директорії з кольоровим форматуванням:
     - Сині директорії
     - Зелені файли
     """
